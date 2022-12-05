@@ -16,4 +16,9 @@ public class StudentController {
         return "welcome to contact page";
     }
 
+    @GetMapping("/gallery")
+    public String Gallerypage(){
+        return "welcome to gallery page";
+    }
+
 }
